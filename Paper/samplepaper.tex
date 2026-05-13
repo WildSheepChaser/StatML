@@ -5,6 +5,7 @@
 \documentclass[runningheads]{llncs}
 %
 \usepackage[T1]{fontenc}
+\usepackage[expansion=false]{microtype}
 % T1 fonts will be used to generate the final print and online PDFs,
 % so please use T1 fonts in your manuscript whenever possible.
 % Other font encondings may result in incorrect characters.
@@ -33,15 +34,18 @@
 % First names are abbreviated in the running head.
 % If there are more than two authors, 'et al.' is used.
 %
-\institute{State university of Milano, Milan, Italy\\
-\email{lorenzopacacussi@unimi.it}\\
-}
+
+\institute{\email{lorenzopacacussi@unimi.it}\\ State university of Milano, Milan, Italy\\}
 %
 \maketitle              % typeset the header of the contribution
 %
 \begin{abstract}
-The abstract should briefly summarize the contents of the paper in
-150--250 words.
+This project aims to build and compare three different convolutional neural networks (CNNs) for classifying images of hand gestures representing rock, paper, scissors. 
+The three CNNs represent three increasing levels of complexity and were trained on the same starndardized dataset containing 2188 images of hand gestures.
+The training was performed using a train test split of 70/% and 30/% (which was then slpit into a validation set and a test set). 
+Testing was performed using both the test set from the standardized dataset and two custom datasets containing 70 and 40 images respectively, which were collected by the author and contain more challenging images (e.g. with different backgrounds, lighting conditions, hand orientations, etc.).
+
+
 
 \end{abstract}
 %
@@ -51,7 +55,8 @@ The abstract should briefly summarize the contents of the paper in
 \subsection{A Subsection Sample}
 Please note that the first paragraph of a section or subsection is
 not indented. The first paragraph that follows a table, figure,
-equation etc. does not need an indent, either.
+equation etc.
+does not need an indent, either.
 
 Subsequent paragraphs, however, are indented.
 
@@ -61,23 +66,8 @@ they are formatted as run-in headings.
 
 \paragraph{Sample Heading (Fourth Level)}
 The contribution should contain no more than four levels of
-headings. Table~\ref{tab1} gives a summary of all heading levels.
 
-\begin{table}
-\caption{Table captions should be placed above the
-tables.}\label{tab1}
-\begin{tabular}{|l|l|l|}
-\hline
-Heading level &  Example & Font size and style\\
-\hline
-Title (centered) &  {\Large\bfseries Lecture Notes} & 14 point, bold\\
-1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
-2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
-3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
-4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
-\hline
-\end{tabular}
-\end{table}
+
 
 
 \noindent Displayed equations are centered and set on a separate
@@ -86,9 +76,7 @@ line.
 x + y = z
 \end{equation}
 Please try to avoid rasterized images for line-art diagrams and
-schemas. Whenever possible, use vector graphics instead (see
-Fig.~\ref{fig1}).
-
+schemas. Whenever possible, use vector graphics instead 
 
 \begin{theorem}
 This is a sample theorem. The run-in heading is set in bold, while
@@ -107,11 +95,7 @@ For citations of references, we prefer the use of square brackets
 and consecutive numbers. Citations using labels or the author/year
 convention are also acceptable. The following bibliography provides
 a sample reference list with entries for journal
-articles~\cite{ref_article1}, an LNCS chapter~\cite{ref_lncs1}, a
-book~\cite{ref_book1}, proceedings without editors~\cite{ref_proc1},
-and a homepage~\cite{ref_url1}. Multiple citations are grouped
-\cite{ref_article1,ref_lncs1,ref_book1},
-\cite{ref_article1,ref_book1,ref_proc1,ref_url1}.
+
 
 \begin{credits}
 \subsubsection{\ackname} A bold run-in heading in small font size at the end of the paper is
