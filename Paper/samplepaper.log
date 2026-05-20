@@ -1,55 +1,57 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.13)  15 MAY 2026 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.13)  18 MAY 2026 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/lorenzo/Documents/GitHub/StatML/Paper/samplepaper.tex
-(/home/lorenzo/Documents/GitHub/StatML/Paper/samplepaper.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
-(llncs.cls
+**/mnt/c/Users/loren/Desktop/uni/StatML/Paper/samplepaper.tex
+(/mnt/c/Users/loren/Desktop/uni/StatML/Paper/samplepaper.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(./llncs.cls
 Document Class: llncs 2024/01/29 v2.24 
  LaTeX document class for Lecture Notes in Computer Science
-(/home/lorenzo/.miktex/texmfs/install/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(/home/lorenzo/.miktex/texmfs/install/tex/latex/base/size10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen150
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/tools/multicol.sty
-Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count283
-\mult@box=\box53
-\multicol@leftmargin=\dimen151
-\c@unbalance=\count284
-\c@collectmore=\count285
-\doublecol@number=\count286
-\multicoltolerance=\count287
-\multicolpretolerance=\count288
-\full@width=\dimen152
-\page@free=\dimen153
-\premulticols=\dimen154
-\postmulticols=\dimen155
-\multicolsep=\skip51
-\multicolbaselineskip=\skip52
-\partial@page=\box54
-\last@line=\box55
-\mc@boxedresult=\box56
-\maxbalancingoverflow=\dimen156
-\mult@rightbox=\box57
-\mult@grightbox=\box58
-\mult@firstbox=\box59
-\mult@gfirstbox=\box60
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count195
+\mult@box=\box51
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count196
+\c@collectmore=\count197
+\doublecol@number=\count198
+\multicoltolerance=\count199
+\multicolpretolerance=\count266
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\mc@boxedresult=\box54
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@firstbox=\box57
+\mult@gfirstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
 \@tempa=\box61
 \@tempa=\box62
 \@tempa=\box63
@@ -84,22 +86,19 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\c@minrows=\count289
-\c@columnbadness=\count290
-\c@finalcolumnbadness=\count291
-\last@try=\dimen157
-\multicolovershoot=\dimen158
-\multicolundershoot=\dimen159
-\mult@nat@firstbox=\box97
-\colbreak@box=\box98
-\mc@col@check@num=\count292
-\g__mc_curr_col_int=\count293
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/aliascnt/aliascnt.sty
-Package: aliascnt 2026-03-08 v1.7 Alias counters (HO)
+\c@minrows=\count267
+\c@columnbadness=\count268
+\c@finalcolumnbadness=\count269
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count270
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
 )
-\c@chapter=\count294
+\c@chapter=\count271
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 379.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 380.
 LaTeX Font Info:    Redeclaring math symbol \Theta on input line 381.
@@ -112,97 +111,95 @@ LaTeX Font Info:    Redeclaring math symbol \Phi on input line 387.
 LaTeX Font Info:    Redeclaring math symbol \Psi on input line 388.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 389.
 LaTeX Info: Redefining \vec on input line 394.
-\tocchpnum=\dimen160
-\tocsecnum=\dimen161
-\tocsectotal=\dimen162
-\tocsubsecnum=\dimen163
-\tocsubsectotal=\dimen164
-\tocsubsubsecnum=\dimen165
-\tocsubsubsectotal=\dimen166
-\tocparanum=\dimen167
-\tocparatotal=\dimen168
-\tocsubparanum=\dimen169
-\@tempcntc=\count295
-\fnindent=\dimen170
-\c@@inst=\count296
-\c@@auth=\count297
-\c@auco=\count298
-\instindent=\dimen171
-\authrun=\box99
+\tocchpnum=\dimen150
+\tocsecnum=\dimen151
+\tocsectotal=\dimen152
+\tocsubsecnum=\dimen153
+\tocsubsectotal=\dimen154
+\tocsubsubsecnum=\dimen155
+\tocsubsubsectotal=\dimen156
+\tocparanum=\dimen157
+\tocparatotal=\dimen158
+\tocsubparanum=\dimen159
+\@tempcntc=\count272
+\fnindent=\dimen160
+\c@@inst=\count273
+\c@@auth=\count274
+\c@auco=\count275
+\instindent=\dimen161
+\authrun=\box97
 \authorrunning=\toks17
 \tocauthor=\toks18
-\titrun=\box100
+\titrun=\box98
 \titlerunning=\toks19
 \toctitle=\toks20
-\c@theorem=\count299
-\c@case=\count300
-\c@conjecture=\count301
-\c@corollary=\count302
-\c@definition=\count303
-\c@example=\count304
-\c@exercise=\count305
-\c@lemma=\count306
-\c@note=\count307
-\c@problem=\count308
-\c@property=\count309
-\c@proposition=\count310
-\c@question=\count311
-\c@solution=\count312
-\c@remark=\count313
-\headlineindent=\dimen172
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/microtype/microtype.sty
-Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+\c@theorem=\count276
+\c@case=\count277
+\c@conjecture=\count278
+\c@corollary=\count279
+\c@definition=\count280
+\c@example=\count281
+\c@exercise=\count282
+\c@lemma=\count283
+\c@note=\count284
+\c@problem=\count285
+\c@property=\count286
+\c@proposition=\count287
+\c@question=\count288
+\c@solution=\count289
+\c@remark=\count290
+\headlineindent=\dimen162
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count314
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count291
 )
 \MT@toks=\toks22
-\MT@tempbox=\box101
-\MT@count=\count315
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
-LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@tempbox=\box99
+\MT@count=\count292
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks23
-LaTeX Info: Redefining \rightprotrusion on input line 1104.
-LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen173
-LaTeX Info: Redefining \microtypecontext on input line 2053.
-LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count316
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 944.
-LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip53
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen163
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count293
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip52
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
-)
-LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count317
-) (samplepaper.aux)
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count294
+\l__pdf_internal_box=\box100
+) (./samplepaper.aux)
 \openout1 = `samplepaper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -225,7 +222,6 @@ Package microtype Info: Applying patch `toc' on input line 24.
 Package microtype Info: Applying patch `eqnum' on input line 24.
 Package microtype Info: Applying patch `footnote' on input line 24.
 Package microtype Info: Applying patch `verbatim' on input line 24.
-LaTeX Info: Redefining \microtypesetup on input line 24.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -233,164 +229,97 @@ Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-) (/home/lorenzo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen176
-\scratchbox=\box102
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\scratchcounter=\count295
+\scratchdimen=\dimen166
+\scratchbox=\box101
+\nofMPsegments=\count296
+\nofMParguments=\count297
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen177
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen167
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
 \everyMPtoPDFconversion=\toks25
-) (/home/lorenzo/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/home/lorenzo/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 41.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [1
 
-Overfull \hbox (27.04198pt too wide) in paragraph at lines 44--51
-[]\T1/cmr/m/n/9 This project aims to build and compare three different convolutional
- []
-
-
-Overfull \hbox (9.35289pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 neural networks (CNNs) for classifying images of hand gestures representing
- []
-
-
-Overfull \hbox (3.14894pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 complexity and were trained on the same starndardized dataset containing
- []
-
-
-Overfull \hbox (1.07205pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 validation accuracy than training accuracy, which suggests that the model
- []
-
-
-Overfull \hbox (0.3712pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 the performance on the custom datasets was significantly lower, especially
- []
-
-
-Overfull \hbox (23.54803pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 on the second custom dataset which contains images with different backgrounds
- []
-
-
-Overfull \hbox (1.41432pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 where the model's performance is similar to a random classifier. Analyzing
- []
-
-
-Overfull \hbox (7.86794pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 images with simple backgrounds and good lighting conditions, but struggles
- []
-
-
-Overfull \hbox (13.33838pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 with images that have more complex backgrounds or poor lighting conditions.
- []
-
-
-Overfull \hbox (3.02544pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 Another critical aspect is the position of the fingers, error analisys revealed
- []
-
-
-Overfull \hbox (0.10002pt too wide) in paragraph at lines 44--51
-\T1/cmr/m/n/9 that most of the misclassifications contain finger positions that are similar
- []
-
-[1
-
-{/home/lorenzo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (0.15532pt too wide) in paragraph at lines 66--67
-[]\T1/cmr/m/n/10 All datasets contain the same three classes: rock, paper, and scissors. However,
- []
-
-<./images/rock.png, id=12, 301.125pt x 200.75pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<./images/rock.png, id=13, 301.125pt x 200.75pt>
 File: ./images/rock.png Graphic file (type png)
 <use ./images/rock.png>
-Package pdftex.def Info: ./images/rock.png  used on input line 70.
+Package pdftex.def Info: ./images/rock.png  used on input line 71.
 (pdftex.def)             Requested size: 104.1381pt x 69.42422pt.
-<./images/paper.png, id=13, 301.125pt x 200.75pt>
+<./images/paper.png, id=14, 301.125pt x 200.75pt>
 File: ./images/paper.png Graphic file (type png)
 <use ./images/paper.png>
-Package pdftex.def Info: ./images/paper.png  used on input line 71.
+Package pdftex.def Info: ./images/paper.png  used on input line 72.
 (pdftex.def)             Requested size: 104.1381pt x 69.42422pt.
-<./images/scissors.png, id=14, 301.125pt x 200.75pt>
+<./images/scissors.png, id=15, 301.125pt x 200.75pt>
 File: ./images/scissors.png Graphic file (type png)
 <use ./images/scissors.png>
-Package pdftex.def Info: ./images/scissors.png  used on input line 72.
+Package pdftex.def Info: ./images/scissors.png  used on input line 73.
 (pdftex.def)             Requested size: 104.1381pt x 69.42422pt.
-<./images/rps-greyscale.png, id=15, 573.8238pt x 193.6836pt>
+<./images/rps-greyscale.png, id=16, 573.8238pt x 193.6836pt>
 File: ./images/rps-greyscale.png Graphic file (type png)
 <use ./images/rps-greyscale.png>
-Package pdftex.def Info: ./images/rps-greyscale.png  used on input line 82.
+Package pdftex.def Info: ./images/rps-greyscale.png  used on input line 84.
 (pdftex.def)             Requested size: 312.40906pt x 105.44759pt.
-
-Overfull \hbox (0.84705pt too wide) in paragraph at lines 85--87
-\T1/cmr/m/n/10 them to the range [0, 1]. This normalization step helps to improve the convergence
- []
-
-[2 <./images/rock.png (PNG copy)> <./images/paper.png (PNG copy)> <./images/scissors.png (PNG copy)>]
-Overfull \hbox (10.87677pt too wide) in paragraph at lines 99--102
- \T1/cmr/bx/n/10 Sample Heading (Third Level)[] \T1/cmr/m/n/10 Only two levels of headings should be numbered.
- []
-
-
-Overfull \hbox (2.42444pt too wide) in paragraph at lines 113--116
-\T1/cmr/m/n/10 Please try to avoid rasterized images for line-art diagrams and schemas. Whenever
- []
-
-
-Overfull \hbox (17.38701pt too wide) in paragraph at lines 118--121
-\T1/cmr/m/it/10 the following text appears in italics. Definitions, lemmas, propositions, and corollaries
- []
-
-
-Overfull \hbox (0.71263pt too wide) in paragraph at lines 130--134
-\T1/cmr/m/n/10 numbers. Citations using labels or the author/year convention are also acceptable.
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 137.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 137.
-[3 <./images/rps-greyscale.png>] [4] (samplepaper.aux)
+ [2 <./images/rock.png (PNG copy)> <./images/paper.png (PNG copy)> <./images/scissors.png (PNG copy)>] [3 <./images/rps-greyscale.png>]
+<./images/Model_1_arch.png, id=26, 1110.39844pt x 181.42781pt>
+File: ./images/Model_1_arch.png Graphic file (type png)
+<use ./images/Model_1_arch.png>
+Package pdftex.def Info: ./images/Model_1_arch.png  used on input line 113.
+(pdftex.def)             Requested size: 312.40906pt x 51.04305pt.
+<./images/Model_2_arch.png, id=27, 1206.00563pt x 225.09094pt>
+File: ./images/Model_2_arch.png Graphic file (type png)
+<use ./images/Model_2_arch.png>
+Package pdftex.def Info: ./images/Model_2_arch.png  used on input line 118.
+(pdftex.def)             Requested size: 312.40906pt x 58.30588pt.
+<./images/Model_3_arch.png, id=28, 957.5775pt x 328.97906pt>
+File: ./images/Model_3_arch.png Graphic file (type png)
+<use ./images/Model_3_arch.png>
+Package pdftex.def Info: ./images/Model_3_arch.png  used on input line 125.
+(pdftex.def)             Requested size: 277.69987pt x 95.40147pt.
+ [4 <./images/Model_1_arch.png> <./images/Model_2_arch.png> <./images/Model_3_arch.png>] [5] [6] [7] (./samplepaper.aux)
  ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4333 strings out of 469628
- 69973 string characters out of 5466837
- 516901 words of memory out of 5000000
- 33151 multiletter control sequences out of 15000+600000
- 637807 words of font info for 58 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 57i,9n,65p,1052b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0600.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0900.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on samplepaper.pdf (4 pages, 472883 bytes).
+ 4262 strings out of 476182
+ 69057 string characters out of 5795595
+ 1932975 words of memory out of 5000000
+ 26267 multiletter control sequences out of 15000+600000
+ 564880 words of font info for 46 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 57i,7n,65p,1148b,250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on samplepaper.pdf (7 pages, 578227 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 8725 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6692 words of extra memory for PDF output out of 10000 (max. 10000000)
 
