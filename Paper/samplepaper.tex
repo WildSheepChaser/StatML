@@ -134,6 +134,7 @@ The max-pooling layers use a 2×2 pool size with a stride of 2. These layers dow
 
 The fully connected layers perform the final classification based on the features extracted by the convolutional layers. The first fully connected layers use the ReLU activation function, which enables the network to learn non-linear relationships between features. The final fully connected layer uses a softmax activation function, which outputs a probability distribution over the three classes (rock, paper, and scissors) for each input image.
 
+
 The loss function used for training the models is sparse categorical cross entropy since the target labels are provoded as integers (0 for rock, 1 for paper, and 2 for scissors) and the output of the model is a probability distribution over the three classes. The simplified formula for sparse categorical cross entropy that is used in keras is:
 $$L(y,\hat{y}) = -\log(\hat{y}_{y})$$
 
@@ -173,11 +174,78 @@ where $\epsilon$ is a small constant added to avoid division by zero.
 
 While adaptive learning rate is useful, the initial learning rate $\alpha$ is still an important hyperparameter that needs to be tuned for optimal performance. In this project, to find the best learning rate for the most complex model, a grid search was performed over common learning rates (0.003, 0.001, 0.0001, 0.00001) and the best performance was achieved with a learning rate of 0.001, which is a common default value for Adam and often works well in practice.
 
+
+Training was performed for a maximum of 15 epochs with a batch size of 32.
 Early stopping was implemented to prevent overfitting by monitoring the validation loss during training. If the validation loss does not improve for a specified number of epochs (patience), training is stopped early. The learning rate was also reduced in case of a plateau in the validation loss, meaning that if the validation loss does not improve for a certain number of epochs, the learning rate is reduced by a factor (e.g., 0.1) to allow the model to converge to a better minimum.
 
 The metrics used to evaluate the performance of the models during training and testing are accuracy and loss, both on the training and validation sets. When evaluating the final performance on the test sets (standardized and custom), the metrics used are accuracy, precision, recall, and F1-score. Accuracy measures the overall correctness of the model's predictions, while precision, recall, and F1-score provide more detailed insights into the model's performance for each class, especially in cases where the classes may be imbalanced or when the cost of false positives and false negatives differs, although this is not the case.
 
 The confusion matrix is also used to visualize the performance of the model by showing the number of true positives, true negatives, false positives, and false negatives for each class. This helps to identify what classes the model struggles the most with and proved to be particularly useful while developing the model. The AUC was also computed to compute the area under the receiver operating characteristic (ROC) curve. The AUC provides a single scalar value that summarizes the model's ability to discriminate between classes across all possible classification thresholds. Since this is a multi-class classification problem, the AUC was computed using a one vs rest approach, where the AUC is calculated for each class against all the other classes.
+
+\section{Results and Discussion}
+
+\subsection{Training Performance}
+In this section training results for the three models are presented and discussed. The performance of the models is evaluated based on the training and validation accuracy and loss, as well as the training curves that show how these metrics evolve over epochs. All values presented in Table-\ref{tab:training} are the ones obtained at the end of training, which for model 3 was stopped early thanks to early stopping.    
+\paragraph{Model 1:} The first model achieved a training accuracy of 97.6\% and a validation accuracy of 91.3\%. This suggests that the model may be overfitting, this statement is also supported by the two loss values, showing a significantly lower loss for training compared to validation. This becomes evident when looking at the learning curves of the model, where training accuracy is consistently higher than validation accuracy, especially in the later epochs. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{m1_acc_curve.png}
+    \includegraphics[width=0.45\textwidth]{m1_loss_curve.png}
+    \caption{Training and validation accuracy and loss curves for Model 1.}
+\end{figure}
+
+\paragraph{Model 2:} The second model achieved a training accuracy of 93.2\% and a validation accuracy of 96.3\%, presenting a major performance improvement compared to model 1. A higher nuber of parameters does increase the risk of overfitting but the performance of the model suggests otherwise, this is because the data augmentation techniques applied help to reach a higher level of generalization. The accuracy and loss curves(Figure \ref{fig:m2-acc}) seem to be oscillating between eachother in the earlier epochs, this could be due to the starting learning rate selected being too highs tough this problem seems to become less relevant in the later epochs. 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{m2_acc_curve.png}
+    \includegraphics[width=0.45\textwidth]{m2_loss_curve.png}
+    \caption{Training and validation accuracy and loss curves for Model 2.}\label{fig:m2-acc}
+\end{figure}
+
+\paragraph{Model 3:} The third model achieved a training accuracy of 97\% and a validation accuracy of 98.4\%. Having the highest number of parameters also means encountering the risk of overfitting but the introduction of dropout layers that exclude some of the neurons from the weight update process the network is able to generalize better during validation. 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.45\textwidth]{m3_acc_curve.png}
+    \includegraphics[width=0.45\textwidth]{m3_loss_curve.png}
+    \caption{Training and validation accuracy and loss curves for Model 3.}\label{fig:m3-acc}
+\end{figure}
+The grid search of the best starting learning rate proved to be effective; the training curves show how validation performance was consistently better than training perfoemance, with no oescillations around the training curves, suggesting that the model shows better generalization capabilities. 
+
+
+\begin{table}
+\label{tab:training}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Training Accuracy} & \textbf{Validation Accuracy} & \textbf{Training Loss} & \textbf{Validation Loss} \\
+\hline
+Model 1 & 0.976 & 0.913 & 0.1241 & 0.2606 \\
+Model 2 & 0.932 & 0.963 & 0.2186 & 0.1427 \\
+Model 3 & 0.970 & 0.984 & 0.0959 & 0.0491 \\
+\hline
+\end{tabular}
+\caption{Training and validation performance for the three models.}
+\end{table}
+
+\subsection{Testing performance}
+Testing was performed on three datasets: the main testing dataset, the first custom dataset with homogeneous backgrounds and the second custom dataset with heterogeneous backgrounds.
+\paragraph{Model 1:} The first model performed 
+
+\begin{table}
+\label{tab:testing}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{Accuracy} & \textbf{F1-score} \\
+\hline
+Model 1 & 0.895 & 0.896 & 0.899 & 0.895 \\
+Model 2 & 0.932 & 0.963 & 0.2186 & 0.1427 \\
+Model 3 & 0.970 & 0.984 & 0.0959 & 0.0491 \\
+\hline
+\end{tabular}
+\caption{Training and validation performance for the three models.}
+\end{table}
 
 
 
