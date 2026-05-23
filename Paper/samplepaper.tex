@@ -230,7 +230,16 @@ Model 3 & 0.970 & 0.984 & 0.0959 & 0.0491 \\
 
 \subsection{Testing performance}
 Testing was performed on three datasets: the main testing dataset, the first custom dataset with homogeneous backgrounds and the second custom dataset with heterogeneous backgrounds.
-\paragraph{Model 1:} The first model performed 
+\paragraph{Model 1:}  Testing accuracy is similar to validation accuracy, this is expected since both testing and validation sets come from the same original dataset and are originated using a random seed. Overall performance seems to be balanced as shown in the other metrics in Table \ref{tab:testing}. The AUC shows how the model's performance at identifying certain classes is slightly better than others, the model seems to be more capable at identifying rock samples while struggling more with scissors and paper classes. This behaviour is also shown in the confusion matrix, where most of the false positives belong to either paper or scissors almost equally (Figure \ref{fig:conf-1}). This is possibly due to similar features found in the extended fingers, altough this is just an assumption. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{m1_confusion.png}
+    \includegraphics[width=0.45\textwidth]{m1_auc.png}
+    \caption{Confusion matrix for model 1}\label{fig:conf-1}
+\end{figure}
+
+\paragraph{Model 2:} The second model showed significative improvements in performance, showing balanced performance and 
 
 \begin{table}
 \label{tab:testing}

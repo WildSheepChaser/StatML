@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779362985.63456 "/home/lorenzo/Documents/GitHub/StatML/Paper/samplepaper.tex" "samplepaper.pdf" "samplepaper" 1779362987.23384 0
-  "/home/lorenzo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1778752585.10207 25750 9c0eadb4a73da16f9cbbfd7720abb0bc ""
+["pdflatex"] 1779466680.12814 "/home/lorenzo/Documents/GitHub/StatML/Paper/samplepaper.tex" "samplepaper.pdf" "samplepaper" 1779466681.84865 0
+  "/home/lorenzo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1779451370.19927 25750 9c0eadb4a73da16f9cbbfd7720abb0bc ""
   "/home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk" 1778672209.61198 22504 bb3899e5982b93e19829f2fbea481637 ""
   "/home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1778672205.17709 25420 ebf6fa228c9a67fc46535f709251dbde ""
   "/home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1778672206.81506 31952 45567cbeaab4538a509570fe8b7b5b56 ""
@@ -56,11 +56,13 @@
   "/home/lorenzo/.miktex/texmfs/install/tex/latex/microtype/microtype.sty" 1778752584.00485 102845 043c56602c7d94c8a716319df1af5479 ""
   "/home/lorenzo/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg" 1778752584.0006 22906 2122f73c0e7dc828f24240c2422dfe25 ""
   "/home/lorenzo/.miktex/texmfs/install/tex/latex/tools/multicol.sty" 1778672194.85008 33142 efe8f4750fc02524935e7423b4bdef69 ""
-  "/home/lorenzo/Documents/GitHub/StatML/Paper/samplepaper.tex" 1779362983.40413 21940 513f90fa9955e3582689d61f64483b71 ""
+  "/home/lorenzo/Documents/GitHub/StatML/Paper/samplepaper.tex" 1779466679.43641 23038 35a9da37deb891f286f1ee162095e8bf ""
   "images/Model_1_arch.png" 1779298494.38437 28632 1a3baac912ffb0abdbad70a647d98746 ""
   "images/Model_2_arch.png" 1779298494.38575 33411 d6a5562a2344568d22bfcfc03764a740 ""
   "images/Model_3_arch.png" 1779298494.38669 49437 7ab9fa1fcf74d41174556c38e35a65bf ""
   "images/m1_acc_curve.png" 1779300500.78042 29612 86b497089037ca73496ce2075afb19ef ""
+  "images/m1_auc.png" 1779465194.67617 41339 9e495b4480d6a2571029da3c71ef2185 ""
+  "images/m1_confusion.png" 1779464110.54007 21582 ff7905fa1333ecd42aff5ffaf4866208 ""
   "images/m1_loss_curve.png" 1779300516.82354 25980 f3fdcd3819ec21e983b61edb6f20f62b ""
   "images/m2_acc_curve.png" 1779346078.81805 32659 08615610ca30f20baeea8d69fd57593f ""
   "images/m2_loss_curve.png" 1779346098.44805 18605 48d5741a40d57de53b4614800dedbbbb ""
@@ -71,8 +73,8 @@
   "images/rps-greyscale.png" 1778860914.25519 106465 1ff424e33d8fbb030a5e40d14eedd4c7 ""
   "images/scissors.png" 1779298494.38796 76047 0de0e397226ae49caa7e58f8c7cfaa06 ""
   "llncs.cls" 1778672078.87811 43402 5fb5a2dc40571aa40f3d199c00cbb986 ""
-  "samplepaper.aux" 1779362987.00113 3140 2899d8f60b7aa0f54c57ffae0c318bd0 "pdflatex"
-  "samplepaper.tex" 1779362983.40413 21940 513f90fa9955e3582689d61f64483b71 ""
+  "samplepaper.aux" 1779466681.64429 3396 5efff3f55c99e941873001b3bad13698 "pdflatex"
+  "samplepaper.tex" 1779466679.43641 23038 35a9da37deb891f286f1ee162095e8bf ""
   (generated)
   "samplepaper.aux"
   "samplepaper.log"

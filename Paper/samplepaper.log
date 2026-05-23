@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.13)  21 MAY 2026 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.13)  22 MAY 2026 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -466,24 +466,34 @@ Overfull \hbox (14.20917pt too wide) in paragraph at lines 219--228
  [][] 
  []
 
-[9] (samplepaper.aux)
+<./images/m1_confusion.png, id=68, 370.7451pt x 339.669pt>
+File: ./images/m1_confusion.png Graphic file (type png)
+<use ./images/m1_confusion.png>
+Package pdftex.def Info: ./images/m1_confusion.png  used on input line 237.
+(pdftex.def)             Requested size: 156.20453pt x 143.11092pt.
+<./images/m1_auc.png, id=69, 450.9648pt x 395.3169pt>
+File: ./images/m1_auc.png Graphic file (type png)
+<use ./images/m1_auc.png>
+Package pdftex.def Info: ./images/m1_auc.png  used on input line 238.
+(pdftex.def)             Requested size: 156.20453pt x 136.92735pt.
+[9 <./images/m1_confusion.png> <./images/m1_auc.png>] [10] (samplepaper.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4412 strings out of 469628
- 72335 string characters out of 5466837
- 521999 words of memory out of 5000000
- 33231 multiletter control sequences out of 15000+600000
+ 4431 strings out of 469628
+ 72827 string characters out of 5466837
+ 520018 words of memory out of 5000000
+ 33250 multiletter control sequences out of 15000+600000
  637041 words of font info for 57 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,8n,65p,1148b,256s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0900.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk> </home/lorenzo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/lorenzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on samplepaper.pdf (9 pages, 740323 bytes).
+Output written on samplepaper.pdf (10 pages, 788413 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
+ 410 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 8258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
