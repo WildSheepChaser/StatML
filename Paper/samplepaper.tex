@@ -228,33 +228,85 @@ Model 3 & 0.970 & 0.984 & 0.0959 & 0.0491 \\
 \caption{Training and validation performance for the three models.}
 \end{table}
 
-\subsection{Testing performance}
-Testing was performed on three datasets: the main testing dataset, the first custom dataset with homogeneous backgrounds and the second custom dataset with heterogeneous backgrounds.
-\paragraph{Model 1:}  Testing accuracy is similar to validation accuracy, this is expected since both testing and validation sets come from the same original dataset and are originated using a random seed. Overall performance seems to be balanced as shown in the other metrics in Table \ref{tab:testing}. The AUC shows how the model's performance at identifying certain classes is slightly better than others, the model seems to be more capable at identifying rock samples while struggling more with scissors and paper classes. This behaviour is also shown in the confusion matrix, where most of the false positives belong to either paper or scissors almost equally (Figure \ref{fig:conf-1}). This is possibly due to similar features found in the extended fingers, altough this is just an assumption. 
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.45\textwidth]{m1_confusion.png}
-    \includegraphics[width=0.45\textwidth]{m1_auc.png}
-    \caption{Confusion matrix for model 1}\label{fig:conf-1}
-\end{figure}
-
-\paragraph{Model 2:} The second model showed significative improvements in performance, showing balanced performance and 
+\subsection{Testing performance on the standardized test set}
 
 \begin{table}
 \label{tab:testing}
 \centering
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{Accuracy} & \textbf{F1-score} \\
+\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{Accuracy} & \textbf{F1-score} & \textbf{Micro-AUC} & \textbf{Macro-AUC} \\
 \hline
-Model 1 & 0.895 & 0.896 & 0.899 & 0.895 \\
-Model 2 & 0.932 & 0.963 & 0.2186 & 0.1427 \\
-Model 3 & 0.970 & 0.984 & 0.0959 & 0.0491 \\
+Model 1 & 0.895 & 0.896 & 0.899 & 0.895 & 0.984 & 0.984\\
+Model 2 & 0.961 & 0.953 & 0.958 & 0.956 & 0.990 & 0.988\\
+Model 3 & 0.991 & 0.991 & 0.991 & 0.991 & 0.9998 & 0.9996\\
 \hline
 \end{tabular}
-\caption{Training and validation performance for the three models.}
+\caption{Testing performance for the three models.}
 \end{table}
+
+Testing was performed on three datasets: the main testing dataset, the first custom dataset with homogeneous backgrounds and the second custom dataset with heterogeneous backgrounds.
+\paragraph{Model 1:}  Testing accuracy is similar to validation accuracy, this is expected since both testing and validation sets come from the same original dataset and are originated using a random seed. Overall performance seems to be balanced as shown in the other metrics in Table \ref{tab:testing}. The one-vs-all AUC shows how the model's performance at identifying certain classes is slightly better than others, the model seems to be more capable at identifying rock samples while struggling more with scissors and paper classes. This behaviour is also shown in the confusion matrix, where most of the false positives belong to either paper or scissors almost equally (Figure \ref{fig:conf-1}). This is possibly due to similar features found in the extended fingers, altough this is just an assumption. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.43\textwidth]{m1_confusion.png}
+    \includegraphics[width=0.43\textwidth]{m1_auc.png}
+    \caption{Confusion matrix for model 1}\label{fig:conf-1}
+\end{figure}
+
+\newpage
+
+\paragraph{Model 2:} The second model showed significative improvements in performance while maintaining balance (Table \ref{tab:testing}). The AUC values show the model's ability to differentiate between classes is significantly improved compared to model 1. Looking closely at the ROC curves the paper class is the one that seems to be the hardest to identify for the model. The confusion matrix (Figure \ref{fig:conf-2}) shows that most of the misclassifications are done on the paper class being misclassified as scissors, following the same pattern found in model 1. 
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{m2_confusion.png}
+    \includegraphics[width=0.45\textwidth]{m2_auc.png}
+    \caption{Confusion matrix for model 2}\label{fig:conf-2}
+\end{figure}
+
+\paragraph{Model 3:} The third model achieved the best performance on the standardized test set, reaching values above 99\% for all metrics (Figure \ref{tab:testing}). The AUC values show that the model is able to differentiate between classes with a very high degree of accuracy, with values equal or close to 1 for all classes. The trend observed in the previous two models is still present, with misclassifications appearing only in the paper and scissors classes (Figure \ref{fig:conf-3}). Error analysis confirmed the assumption made in the previous models: the misclassified images contain finger positions that are frequent in other classes. Looking at Figure \ref{fig:missclassified}, the first image shows a scissors sample misclassified as paper; the fingers appear to be parallel to each other, similar to many samples in the paper class. The second and third images show paper samples misclassified as scissors; the fingers are spread wide apart from each other, which is more common in the scissors class within the dataset. The model likely uses finger positioning, among other extracted features, to classify samples.
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\textwidth]{m3_confusion.png}
+    \includegraphics[width=0.45\textwidth]{m3_auc.png}
+    \caption{Confusion matrix for model 3}\label{fig:conf-3}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.30\textwidth]{scissors_miss.png}
+    \includegraphics[width=0.30\textwidth]{paper_miss_1.png}
+    \includegraphics[width=0.30\textwidth]{rock_miss.png}
+    \caption{Missclassified samples by model 3}\label{fig:missclassified}
+\end{figure}
+\newpage
+\subsection{Testing performance on custom datasets}
+
+\begin{table}
+\label{tab:testing}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{Accuracy} & \textbf{F1-score} & \textbf{Micro-AUC} & \textbf{Macro-AUC} \\
+\hline
+Model 1 & 0.895 & 0.896 & 0.899 & 0.895 & 0.984 & 0.984\\
+Model 2 & 0.961 & 0.953 & 0.958 & 0.956 & 0.990 & 0.988\\
+Model 3 & 0.991 & 0.991 & 0.991 & 0.991 & 0.9998 & 0.9996\\
+\hline
+\end{tabular}
+\caption{Testing performance for the three models.}
+\end{table}
+
+
+
+
+
 
 
 
