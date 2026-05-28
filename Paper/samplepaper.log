@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.13)  24 MAY 2026 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.5.13)  28 MAY 2026 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -195,33 +195,63 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecaptionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\bfseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count296
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count297
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count294
+\l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box100
 ) (./samplepaper.aux)
 \openout1 = `samplepaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Info: Redefining \microtypecontext on input line 24.
-Package microtype Info: Applying patch `item' on input line 24.
-Package microtype Info: Applying patch `toc' on input line 24.
-Package microtype Info: Applying patch `eqnum' on input line 24.
-Package microtype Info: Applying patch `footnote' on input line 24.
-Package microtype Info: Applying patch `verbatim' on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Info: Redefining \microtypecontext on input line 25.
+Package microtype Info: Applying patch `item' on input line 25.
+Package microtype Info: Applying patch `toc' on input line 25.
+Package microtype Info: Applying patch `eqnum' on input line 25.
+Package microtype Info: Applying patch `footnote' on input line 25.
+Package microtype Info: Applying patch `verbatim' on input line 25.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -233,16 +263,16 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen166
+\scratchcounter=\count299
+\scratchdimen=\dimen174
 \scratchbox=\box101
-\nofMPsegments=\count296
-\nofMParguments=\count297
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen167
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen175
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -250,11 +280,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 41.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 41.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 41.
+(Font)              <5> on input line 42.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -262,153 +294,185 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 65.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 65.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<./images/rock.png, id=13, 301.125pt x 200.75pt>
+<./images/rock.png, id=15, 301.125pt x 200.75pt>
 File: ./images/rock.png Graphic file (type png)
 <use ./images/rock.png>
-Package pdftex.def Info: ./images/rock.png  used on input line 71.
+Package pdftex.def Info: ./images/rock.png  used on input line 72.
 (pdftex.def)             Requested size: 104.1381pt x 69.42422pt.
-<./images/paper.png, id=14, 301.125pt x 200.75pt>
+<./images/paper.png, id=16, 301.125pt x 200.75pt>
 File: ./images/paper.png Graphic file (type png)
 <use ./images/paper.png>
-Package pdftex.def Info: ./images/paper.png  used on input line 72.
+Package pdftex.def Info: ./images/paper.png  used on input line 73.
 (pdftex.def)             Requested size: 104.1381pt x 69.42422pt.
-<./images/scissors.png, id=15, 301.125pt x 200.75pt>
+<./images/scissors.png, id=17, 301.125pt x 200.75pt>
 File: ./images/scissors.png Graphic file (type png)
 <use ./images/scissors.png>
-Package pdftex.def Info: ./images/scissors.png  used on input line 73.
+Package pdftex.def Info: ./images/scissors.png  used on input line 74.
 (pdftex.def)             Requested size: 104.1381pt x 69.42422pt.
-<./images/rps-greyscale.png, id=16, 573.8238pt x 193.6836pt>
+<./images/rps-greyscale.png, id=18, 573.8238pt x 193.6836pt>
 File: ./images/rps-greyscale.png Graphic file (type png)
 <use ./images/rps-greyscale.png>
-Package pdftex.def Info: ./images/rps-greyscale.png  used on input line 84.
+Package pdftex.def Info: ./images/rps-greyscale.png  used on input line 87.
 (pdftex.def)             Requested size: 312.40906pt x 105.44759pt.
  [2 <./images/rock.png (PNG copy)> <./images/paper.png (PNG copy)> <./images/scissors.png (PNG copy)>] [3 <./images/rps-greyscale.png>]
-<./images/Model_1_arch.png, id=26, 1110.39844pt x 181.42781pt>
+<./images/Model_1_arch.png, id=28, 866.48718pt x 158.84344pt>
 File: ./images/Model_1_arch.png Graphic file (type png)
 <use ./images/Model_1_arch.png>
-Package pdftex.def Info: ./images/Model_1_arch.png  used on input line 113.
-(pdftex.def)             Requested size: 312.40906pt x 51.04305pt.
-<./images/Model_2_arch.png, id=27, 1206.00563pt x 225.09094pt>
+Package pdftex.def Info: ./images/Model_1_arch.png  used on input line 116.
+(pdftex.def)             Requested size: 347.12354pt x 63.6332pt.
+<./images/Model_2_arch.png, id=29, 1014.03844pt x 216.81pt>
 File: ./images/Model_2_arch.png Graphic file (type png)
 <use ./images/Model_2_arch.png>
-Package pdftex.def Info: ./images/Model_2_arch.png  used on input line 118.
-(pdftex.def)             Requested size: 312.40906pt x 58.30588pt.
-<./images/Model_3_arch.png, id=28, 957.5775pt x 328.97906pt>
+Package pdftex.def Info: ./images/Model_2_arch.png  used on input line 121.
+(pdftex.def)             Requested size: 347.12354pt x 74.21727pt.
+<./images/Model_3_arch.png, id=30, 907.13907pt x 310.15875pt>
 File: ./images/Model_3_arch.png Graphic file (type png)
 <use ./images/Model_3_arch.png>
-Package pdftex.def Info: ./images/Model_3_arch.png  used on input line 125.
-(pdftex.def)             Requested size: 277.69987pt x 95.40147pt.
- [4 <./images/Model_1_arch.png> <./images/Model_2_arch.png> <./images/Model_3_arch.png>] [5] [6]
-<./images/m1_acc_curve.png, id=49, 409.7709pt x 327.3831pt>
-File: ./images/m1_acc_curve.png Graphic file (type png)
-<use ./images/m1_acc_curve.png>
-Package pdftex.def Info: ./images/m1_acc_curve.png  used on input line 193.
-(pdftex.def)             Requested size: 156.20453pt x 124.79651pt.
-<./images/m1_loss_curve.png, id=50, 409.7709pt x 327.3831pt>
-File: ./images/m1_loss_curve.png Graphic file (type png)
-<use ./images/m1_loss_curve.png>
-Package pdftex.def Info: ./images/m1_loss_curve.png  used on input line 194.
-(pdftex.def)             Requested size: 156.20453pt x 124.79651pt.
-<./images/m2_acc_curve.png, id=51, 409.7709pt x 316.5426pt>
-File: ./images/m2_acc_curve.png Graphic file (type png)
-<use ./images/m2_acc_curve.png>
-Package pdftex.def Info: ./images/m2_acc_curve.png  used on input line 201.
-(pdftex.def)             Requested size: 156.20453pt x 120.66417pt.
-<./images/m2_loss_curve.png, id=52, 400.3758pt x 312.2064pt>
-File: ./images/m2_loss_curve.png Graphic file (type png)
-<use ./images/m2_loss_curve.png>
-Package pdftex.def Info: ./images/m2_loss_curve.png  used on input line 202.
-(pdftex.def)             Requested size: 156.20453pt x 121.80765pt.
- [7 <./images/m1_acc_curve.png> <./images/m1_loss_curve.png>]
-<./images/m3_acc_curve.png, id=60, 409.7709pt x 312.2064pt>
-File: ./images/m3_acc_curve.png Graphic file (type png)
-<use ./images/m3_acc_curve.png>
-Package pdftex.def Info: ./images/m3_acc_curve.png  used on input line 209.
-(pdftex.def)             Requested size: 156.20453pt x 119.01125pt.
-<./images/m3_loss_curve.png, id=61, 416.2752pt x 312.2064pt>
-File: ./images/m3_loss_curve.png Graphic file (type png)
-<use ./images/m3_loss_curve.png>
-Package pdftex.def Info: ./images/m3_loss_curve.png  used on input line 210.
-(pdftex.def)             Requested size: 156.20453pt x 117.15334pt.
- [8 <./images/m2_acc_curve.png> <./images/m2_loss_curve.png> <./images/m3_acc_curve.png> <./images/m3_loss_curve.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 219.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 219.
-
-Overfull \hbox (14.20917pt too wide) in paragraph at lines 219--228
+Package pdftex.def Info: ./images/Model_3_arch.png  used on input line 128.
+(pdftex.def)             Requested size: 347.12354pt x 118.68503pt.
+ [4 <./images/Model_1_arch.png> <./images/Model_2_arch.png>] [5 <./images/Model_3_arch.png>] [6]
+Overfull \hbox (14.20917pt too wide) in paragraph at lines 196--205
  [][] 
  []
 
-<./images/m1_confusion.png, id=69, 370.7451pt x 339.669pt>
+<./images/m1_acc_curve.png, id=51, 409.7709pt x 327.3831pt>
+File: ./images/m1_acc_curve.png Graphic file (type png)
+<use ./images/m1_acc_curve.png>
+Package pdftex.def Info: ./images/m1_acc_curve.png  used on input line 214.
+(pdftex.def)             Requested size: 145.79124pt x 116.47906pt.
+<./images/m1_loss_curve.png, id=52, 416.2752pt x 327.3831pt>
+File: ./images/m1_loss_curve.png Graphic file (type png)
+<use ./images/m1_loss_curve.png>
+Package pdftex.def Info: ./images/m1_loss_curve.png  used on input line 215.
+(pdftex.def)             Requested size: 145.79124pt x 114.66072pt.
+<./images/m2_acc_curve.png, id=53, 409.7709pt x 312.2064pt>
+File: ./images/m2_acc_curve.png Graphic file (type png)
+<use ./images/m2_acc_curve.png>
+Package pdftex.def Info: ./images/m2_acc_curve.png  used on input line 222.
+(pdftex.def)             Requested size: 156.20453pt x 119.01125pt.
+<./images/m2_loss_curve.png, id=54, 400.3758pt x 312.2064pt>
+File: ./images/m2_loss_curve.png Graphic file (type png)
+<use ./images/m2_loss_curve.png>
+Package pdftex.def Info: ./images/m2_loss_curve.png  used on input line 223.
+(pdftex.def)             Requested size: 156.20453pt x 121.80765pt.
+[7]
+<./images/m3_acc_curve.png, id=60, 409.7709pt x 312.2064pt>
+File: ./images/m3_acc_curve.png Graphic file (type png)
+<use ./images/m3_acc_curve.png>
+Package pdftex.def Info: ./images/m3_acc_curve.png  used on input line 230.
+(pdftex.def)             Requested size: 156.20453pt x 119.01125pt.
+<./images/m3_loss_curve.png, id=61, 409.7709pt x 312.2064pt>
+File: ./images/m3_loss_curve.png Graphic file (type png)
+<use ./images/m3_loss_curve.png>
+Package pdftex.def Info: ./images/m3_loss_curve.png  used on input line 231.
+(pdftex.def)             Requested size: 156.20453pt x 119.01125pt.
+ [8 <./images/m1_acc_curve.png> <./images/m1_loss_curve.png> <./images/m2_acc_curve.png> <./images/m2_loss_curve.png>]
+<./images/m1_confusion.png, id=69, 371.4678pt x 338.2236pt>
 File: ./images/m1_confusion.png Graphic file (type png)
 <use ./images/m1_confusion.png>
-Package pdftex.def Info: ./images/m1_confusion.png  used on input line 253.
-(pdftex.def)             Requested size: 149.26057pt x 136.75146pt.
-<./images/m1_auc.png, id=70, 450.9648pt x 395.3169pt>
+Package pdftex.def Info: ./images/m1_confusion.png  used on input line 261.
+(pdftex.def)             Requested size: 149.26057pt x 135.90634pt.
+<./images/m1_auc.png, id=70, 450.9648pt x 393.8715pt>
 File: ./images/m1_auc.png Graphic file (type png)
 <use ./images/m1_auc.png>
-Package pdftex.def Info: ./images/m1_auc.png  used on input line 254.
-(pdftex.def)             Requested size: 149.26057pt x 130.84102pt.
-[9]
-<./images/m2_confusion.png, id=74, 370.7451pt x 339.669pt>
+Package pdftex.def Info: ./images/m1_auc.png  used on input line 262.
+(pdftex.def)             Requested size: 149.26057pt x 130.36263pt.
+ [9 <./images/m3_acc_curve.png> <./images/m3_loss_curve.png>]
+<./images/m2_confusion.png, id=76, 371.4678pt x 338.2236pt>
 File: ./images/m2_confusion.png Graphic file (type png)
 <use ./images/m2_confusion.png>
-Package pdftex.def Info: ./images/m2_confusion.png  used on input line 265.
-(pdftex.def)             Requested size: 156.20453pt x 143.11092pt.
-<./images/m2_auc.png, id=75, 450.9648pt x 395.3169pt>
+Package pdftex.def Info: ./images/m2_confusion.png  used on input line 273.
+(pdftex.def)             Requested size: 156.20453pt x 142.22841pt.
+<./images/m2_auc.png, id=77, 450.9648pt x 393.8715pt>
 File: ./images/m2_auc.png Graphic file (type png)
 <use ./images/m2_auc.png>
-Package pdftex.def Info: ./images/m2_auc.png  used on input line 266.
-(pdftex.def)             Requested size: 156.20453pt x 136.92735pt.
+Package pdftex.def Info: ./images/m2_auc.png  used on input line 274.
+(pdftex.def)             Requested size: 156.20453pt x 136.42671pt.
  [10 <./images/m1_confusion.png> <./images/m1_auc.png> <./images/m2_confusion.png> <./images/m2_auc.png>]
-<./images/m3_confusion.png, id=83, 371.4678pt x 338.2236pt>
+<./images/m3_confusion.png, id=85, 371.4678pt x 338.2236pt>
 File: ./images/m3_confusion.png Graphic file (type png)
 <use ./images/m3_confusion.png>
-Package pdftex.def Info: ./images/m3_confusion.png  used on input line 276.
+Package pdftex.def Info: ./images/m3_confusion.png  used on input line 284.
 (pdftex.def)             Requested size: 156.20453pt x 142.22841pt.
-<./images/m3_auc.png, id=84, 450.9648pt x 393.8715pt>
+<./images/m3_auc.png, id=86, 450.9648pt x 393.8715pt>
 File: ./images/m3_auc.png Graphic file (type png)
 <use ./images/m3_auc.png>
-Package pdftex.def Info: ./images/m3_auc.png  used on input line 277.
+Package pdftex.def Info: ./images/m3_auc.png  used on input line 285.
 (pdftex.def)             Requested size: 156.20453pt x 136.42671pt.
-<./images/scissors_miss.png, id=85, 281.1303pt x 295.5843pt>
+<./images/scissors_miss.png, id=87, 281.1303pt x 295.5843pt>
 File: ./images/scissors_miss.png Graphic file (type png)
 <use ./images/scissors_miss.png>
-Package pdftex.def Info: ./images/scissors_miss.png  used on input line 283.
+Package pdftex.def Info: ./images/scissors_miss.png  used on input line 291.
 (pdftex.def)             Requested size: 104.1381pt x 109.49075pt.
-<./images/paper_miss_1.png, id=86, 281.1303pt x 295.5843pt>
+<./images/paper_miss_1.png, id=88, 281.1303pt x 295.5843pt>
 File: ./images/paper_miss_1.png Graphic file (type png)
 <use ./images/paper_miss_1.png>
-Package pdftex.def Info: ./images/paper_miss_1.png  used on input line 284.
+Package pdftex.def Info: ./images/paper_miss_1.png  used on input line 292.
 (pdftex.def)             Requested size: 104.1381pt x 109.49075pt.
-<./images/paper_miss_2.png, id=87, 281.1303pt x 295.5843pt>
-File: ./images/paper_miss_2.png Graphic file (type png)
-<use ./images/paper_miss_2.png>
-Package pdftex.def Info: ./images/paper_miss_2.png  used on input line 285.
+<./images/rock_miss.png, id=89, 281.1303pt x 295.5843pt>
+File: ./images/rock_miss.png Graphic file (type png)
+<use ./images/rock_miss.png>
+Package pdftex.def Info: ./images/rock_miss.png  used on input line 293.
 (pdftex.def)             Requested size: 104.1381pt x 109.49075pt.
- [11 <./images/m3_confusion.png> <./images/m3_auc.png> <./images/scissors_miss.png> <./images/paper_miss_1.png> <./images/paper_miss_2.png>] [12] (./samplepaper.aux)
+ [11 <./images/m3_confusion.png> <./images/m3_auc.png> <./images/scissors_miss.png> <./images/paper_miss_1.png> <./images/rock_miss.png>]
+<./images/m1_conf_personalized_b.png, id=98, 374.3586pt x 338.2236pt>
+File: ./images/m1_conf_personalized_b.png Graphic file (type png)
+<use ./images/m1_conf_personalized_b.png>
+Package pdftex.def Info: ./images/m1_conf_personalized_b.png  used on input line 322.
+(pdftex.def)             Requested size: 156.20453pt x 141.12915pt.
+<./images/m2_conf_personalized_b.png, id=99, 364.9635pt x 338.2236pt>
+File: ./images/m2_conf_personalized_b.png Graphic file (type png)
+<use ./images/m2_conf_personalized_b.png>
+Package pdftex.def Info: ./images/m2_conf_personalized_b.png  used on input line 327.
+(pdftex.def)             Requested size: 156.20453pt x 144.76239pt.
+ [12 <./images/m1_conf_personalized_b.png> <./images/m2_conf_personalized_b.png>]
+<./images/m3_conf_personalized_b.png, id=105, 374.3586pt x 338.2236pt>
+File: ./images/m3_conf_personalized_b.png Graphic file (type png)
+<use ./images/m3_conf_personalized_b.png>
+Package pdftex.def Info: ./images/m3_conf_personalized_b.png  used on input line 337.
+(pdftex.def)             Requested size: 156.20453pt x 141.12915pt.
+ [13 <./images/m3_conf_personalized_b.png>]
+<./images/m1_conf_personalized.png, id=111, 364.9635pt x 338.2236pt>
+File: ./images/m1_conf_personalized.png Graphic file (type png)
+<use ./images/m1_conf_personalized.png>
+Package pdftex.def Info: ./images/m1_conf_personalized.png  used on input line 367.
+(pdftex.def)             Requested size: 104.1381pt x 96.50826pt.
+<./images/m2_conf_personalized.png, id=112, 358.4592pt x 338.2236pt>
+File: ./images/m2_conf_personalized.png Graphic file (type png)
+<use ./images/m2_conf_personalized.png>
+Package pdftex.def Info: ./images/m2_conf_personalized.png  used on input line 374.
+(pdftex.def)             Requested size: 104.1381pt x 98.2578pt.
+<./images/m3_conf_personalized.png, id=113, 364.9635pt x 338.2236pt>
+File: ./images/m3_conf_personalized.png Graphic file (type png)
+<use ./images/m3_conf_personalized.png>
+Package pdftex.def Info: ./images/m3_conf_personalized.png  used on input line 381.
+(pdftex.def)             Requested size: 104.1381pt x 96.50826pt.
+ [14 <./images/m1_conf_personalized.png> <./images/m2_conf_personalized.png> <./images/m3_conf_personalized.png>] [15] (./samplepaper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4435 strings out of 476182
- 73539 string characters out of 5795595
- 1934975 words of memory out of 5000000
- 26433 multiletter control sequences out of 15000+600000
- 567389 words of font info for 53 fonts, out of 8000000 for 9000
+ 5961 strings out of 476182
+ 103927 string characters out of 5795595
+ 1935975 words of memory out of 5000000
+ 27948 multiletter control sequences out of 15000+600000
+ 568923 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,8n,65p,1218b,252s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on samplepaper.pdf (12 pages, 1154418 bytes).
+ 67i,9n,77p,1313b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/loren/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on samplepaper.pdf (15 pages, 1227189 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 472 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 8303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
