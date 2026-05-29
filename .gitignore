@@ -2,7 +2,7 @@
 *.keras
 
 
-test-black-bg/
-test-personal/
+test-black-bg/*
+test-personal/*
 performance/img_*
 Paper/
