@@ -9,7 +9,7 @@ Project Overview
 
 This project focuses on the design, implementation, and architectural comparison of three Deep Learning models built to classify hand gestures into three distinct categories: Rock, Paper, and Scissors.  
 
-Following a principle of incremental engineering complexity, the project starts with a baseline convolutional neural network and scales up to deep convolutional architectures. The core objective is to analyze how structural variations, data regularization techniques, and hyperparameter tuning impact a model's ability to learn shape-based visual features.
+Following a principle of incremental engineering complexity, the project starts with a baseline convolutional neural network and scales up to deep convolutional architectures. The core objective is to analyze how structural variations, data augmentation techniques, and hyperparameter tuning impact a model's ability to learn shape-based visual features.
 
 ## IMPORTANT!!
 
