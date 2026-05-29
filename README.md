@@ -1,4 +1,4 @@
-#Building a CNN for Rock-Paper-Scissors Classification
+# Building a CNN for Rock-Paper-Scissors Classification
 
 Developed by Lorenzo Pacacussi (lorenzopacacussi@studenti.unimi.it)
 
@@ -11,7 +11,7 @@ This project focuses on the design, implementation, and architectural comparison
 
 Following a principle of incremental engineering complexity, the project starts with a baseline convolutional neural network and scales up to deep convolutional architectures. The core objective is to analyze how structural variations, data regularization techniques, and hyperparameter tuning impact a model's ability to learn shape-based visual features.
 
-##IMPORTANT!!
+## IMPORTANT!!
 
 To run a generalization test make the two following folders:
 - test-personal
