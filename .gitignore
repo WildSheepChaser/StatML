@@ -6,3 +6,4 @@ test-black-bg/
 test-personal/
 performance/img_*
 Paper-latex/
+*.tex
